@@ -1,9 +1,8 @@
 package org.lessons.java;
 
-import java.util.Iterator;
 import java.util.Random;
 
-public class snack2 {
+public class Snack2 {
 
 	public static void main(String[] args) {
 		
