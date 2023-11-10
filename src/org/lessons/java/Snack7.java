@@ -12,6 +12,8 @@ public class Snack7 {
 		String strSecondi= in.nextLine();
 		int intSecondi = Integer.valueOf(strSecondi);
 		
+		in.close();
+		
 		int ore = intSecondi / 3600;
         int secondiRimanenti = intSecondi % 3600;
         int minuti= secondiRimanenti / 60;

@@ -16,6 +16,8 @@ public class Snack5 {
         	System.out.print("inserisci qualsiasi cosa tra lettere numeri e simboli (se vuoi terminare metti '0'):");
         	String input = in.nextLine().replaceAll("\\s", "");
         	
+        	in.close();
+        	
         	if (input.equals("0")) {
 				flag = false;
 				System.out.println("Operazione Finita");

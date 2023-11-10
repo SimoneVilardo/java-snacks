@@ -11,6 +11,8 @@ public class Snack4 {
 		System.out.println("Inserisci una parola: ");
 		String strUser = in.nextLine();
 		
+		in.close();
+		
 		int strLength = strUser.length();		
 		String stringReverse = "";
 		

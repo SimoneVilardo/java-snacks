@@ -11,6 +11,8 @@ public class Snack8 {
 		System.out.print("Inserisci qualcosa: ");
 		String string = in.nextLine();
 		
+		in.close();
+		
 		char[] caratteri = string.toLowerCase().toCharArray();
 
         for (int i = 0; i < caratteri.length; i++) {

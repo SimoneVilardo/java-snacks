@@ -12,6 +12,8 @@ public class Snack1 {
 		String strValue = in.nextLine();
 		int value = Integer.valueOf(strValue);
 		
+		in.close();
+		
 		if(value % 2 == 0) {
 			System.out.println(value);
 		}else {
